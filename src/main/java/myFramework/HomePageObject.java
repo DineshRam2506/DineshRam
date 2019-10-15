@@ -47,5 +47,9 @@ public class HomePageObject extends BasePage {
 	{
 		tabmail.click();
 	}
+	public void close()
+	{
+		driver.close();
+	}
 	
 }

@@ -5,7 +5,14 @@
     <classes>
       <class name="myFramework.TestDressesPage">
         <methods>
+          <include name="select"/>
           <include name="verifycart"/>
+          <include name="verifytabsmall"/>
+          <include name="verifyviewcart"/>
+          <include name="verifytabmedium"/>
+          <include name="count"/>
+          <include name="verifyclose"/>
+          <include name="verifylarge"/>
         </methods>
       </class> <!-- myFramework.TestDressesPage -->
     </classes>
